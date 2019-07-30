@@ -1,0 +1,24 @@
+{
+  "name": "ccaglayan/foxhole-php",
+  "version": "0.1.0",
+  "description": "Foxhole War API",
+  "homepage": "https://github.com/ccaglayan/foxhole-php",
+  "keywords": ["php", "library", "foxhole", "foxhole-warapi", "foxhole-war-api","foxhole-game","api","game"],
+  "license": "Unlicense",
+  "type": "library",
+  "require": {
+    "ext-curl": "*",
+    "php": ">=5.4"
+  },
+  "authors": [
+    {
+      "name": "Çağlar Çağlayan",
+      "email": "c.caglayan.cc@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "FoxHolePHP\\": "src/"
+    }
+  }
+}
